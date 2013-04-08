@@ -1,0 +1,52 @@
+{"ts":1365380645953,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1365380287089,"patch":[[{"diffs":[[1,"from flask import Flask\napp = Flask(__name__)\n\n\nif __name__ == '__main__':\n    app.run()"]],"start1":0,"start2":0,"length1":0,"length2":88}]],"length":88,"saved":false}
+{"ts":1365380825195,"patch":[[{"diffs":[[0,"name__)\n"],[1,"app.config[\"MONGODB_SETTINGS\"] = {'DB': \"my_tumble_log\"}\napp.config[\"SECRET_KEY\"] = \"KeepThisS3cr3t\"\n\ndb = MongoEngine(app)"],[0,"\n\nif __n"]],"start1":38,"start2":38,"length1":16,"length2":139}]],"length":211,"saved":false}
+{"ts":1365380840961,"patch":[[{"diffs":[[0,"t Flask\n"],[1,"from flask.ext.mongoengine import MongoEngine\n"],[0,"app = Fl"]],"start1":16,"start2":16,"length1":16,"length2":62}]],"length":257,"saved":false}
+{"ts":1365381086344,"patch":[[{"diffs":[[0,"ble_log\""],[1,",\n"],[0,"}\napp.co"]],"start1":139,"start2":139,"length1":16,"length2":18}]],"length":259,"saved":false}
+{"ts":1365381089441,"patch":[[{"diffs":[[0,"e_log\",\n"],[1,"                                    "],[0,"}\napp.co"]],"start1":141,"start2":141,"length1":16,"length2":52}]],"length":295,"saved":false}
+{"ts":1365381092251,"patch":[[{"diffs":[[0,"        "],[-1,"    "],[0,"}\napp.co"]],"start1":173,"start2":173,"length1":20,"length2":16}]],"length":291,"saved":false}
+{"ts":1365381093535,"patch":[[{"diffs":[[0,"        "],[1,"  "],[0,"}\napp.co"]],"start1":173,"start2":173,"length1":16,"length2":18}]],"length":293,"saved":false}
+{"ts":1365381095330,"patch":[[{"diffs":[[0,"        "],[1,"'"],[0,"}\napp.co"]],"start1":175,"start2":175,"length1":16,"length2":17}]],"length":294,"saved":false}
+{"ts":1365381100421,"patch":[[{"diffs":[[0,"       '"],[1,"host"],[0,"}\napp.co"]],"start1":176,"start2":176,"length1":16,"length2":20}]],"length":298,"saved":false}
+{"ts":1365381102047,"patch":[[{"diffs":[[0,"   'host"],[1,"'"],[0,"}\napp.co"]],"start1":180,"start2":180,"length1":16,"length2":17}]],"length":299,"saved":false}
+{"ts":1365381547206,"patch":[[{"diffs":[[0,"ODB_"],[-1,"SETTINGS\"] = {'DB': \"my_tumble_log\",\n                                  'host'}"],[1,"DB"],[0,"\napp"]],"start1":108,"start2":108,"length1":86,"length2":10}]],"length":223,"saved":false}
+{"ts":1365381549421,"patch":[[{"diffs":[[0,"NGODB_DB"],[1,"\"]"],[0,"\napp.con"]],"start1":106,"start2":106,"length1":16,"length2":18}]],"length":225,"saved":false}
+{"ts":1365381551561,"patch":[[{"diffs":[[0,"ODB_DB\"]"],[1," = "],[0,"\napp.con"]],"start1":108,"start2":108,"length1":16,"length2":19}]],"length":228,"saved":false}
+{"ts":1365381560108,"patch":[[{"diffs":[[0,"_DB\"] = "],[1,"\"DataRoomba\""],[0,"\napp.con"]],"start1":111,"start2":111,"length1":16,"length2":28}]],"length":240,"saved":false}
+{"ts":1365381564049,"patch":[[{"diffs":[[0,"Roomba\"\n"],[1,"a\n"],[0,"app.conf"]],"start1":124,"start2":124,"length1":16,"length2":18}]],"length":242,"saved":false}
+{"ts":1365381566211,"patch":[[{"diffs":[[0,"oomba\"\na"],[1,"pp.config["],[0,"\napp.con"]],"start1":125,"start2":125,"length1":16,"length2":26}]],"length":252,"saved":false}
+{"ts":1365381568024,"patch":[[{"diffs":[[0,".config["],[1,"\"MONGO"],[0,"\napp.con"]],"start1":135,"start2":135,"length1":16,"length2":22}]],"length":258,"saved":false}
+{"ts":1365381569814,"patch":[[{"diffs":[[0,"g[\"MONGO"],[1,"DB_"],[0,"\napp.con"]],"start1":141,"start2":141,"length1":16,"length2":19}]],"length":261,"saved":false}
+{"ts":1365381571409,"patch":[[{"diffs":[[0,"MONGODB_"],[1,"HOST"],[0,"\napp.con"]],"start1":144,"start2":144,"length1":16,"length2":20}]],"length":265,"saved":false}
+{"ts":1365381590475,"patch":[[{"diffs":[[0,"ODB_HOST"],[1,"\"]"],[0,"\napp.con"]],"start1":148,"start2":148,"length1":16,"length2":18}]],"length":267,"saved":false}
+{"ts":1365381592128,"patch":[[{"diffs":[[0,"B_HOST\"]"],[1," = "],[0,"\napp.con"]],"start1":150,"start2":150,"length1":16,"length2":19}]],"length":270,"saved":false}
+{"ts":1365381616441,"patch":[[{"diffs":[[0,"OST\"] = "],[1,"\"dharma.mongohq.com\""],[0,"\napp.con"]],"start1":153,"start2":153,"length1":16,"length2":36}]],"length":290,"saved":false}
+{"ts":1365381617435,"patch":[[{"diffs":[[0,"hq.com\"\n"],[1,"ap\n"],[0,"app.conf"]],"start1":174,"start2":174,"length1":16,"length2":19}]],"length":293,"saved":false}
+{"ts":1365381619535,"patch":[[{"diffs":[[0,".com\"\nap"],[1,"p.config"],[0,"\napp.con"]],"start1":176,"start2":176,"length1":16,"length2":24}]],"length":301,"saved":false}
+{"ts":1365381621075,"patch":[[{"diffs":[[0,"p.config"],[1,"[\""],[0,"\napp.con"]],"start1":184,"start2":184,"length1":16,"length2":18}]],"length":303,"saved":false}
+{"ts":1365381625671,"patch":[[{"diffs":[[0,"config[\""],[1,"MONGODB_"],[0,"\napp.con"]],"start1":186,"start2":186,"length1":16,"length2":24}]],"length":311,"saved":false}
+{"ts":1365381628428,"patch":[[{"diffs":[[0,"MONGODB_"],[1,"PORT\""],[0,"\napp.con"]],"start1":194,"start2":194,"length1":16,"length2":21}]],"length":316,"saved":false}
+{"ts":1365381629854,"patch":[[{"diffs":[[0,"DB_PORT\""],[1,"] ="],[0,"\napp.con"]],"start1":199,"start2":199,"length1":16,"length2":19}]],"length":319,"saved":false}
+{"ts":1365381630848,"patch":[[{"diffs":[[0,"PORT\"] ="],[1," "],[0,"\napp.con"]],"start1":202,"start2":202,"length1":16,"length2":17}]],"length":320,"saved":false}
+{"ts":1365381632074,"patch":[[{"diffs":[[0,"ORT\"] = "],[1,"\""],[0,"\napp.con"]],"start1":203,"start2":203,"length1":16,"length2":17}]],"length":321,"saved":false}
+{"ts":1365381638196,"patch":[[{"diffs":[[0,"RT\"] = \""],[1,"10019\""],[0,"\napp.con"]],"start1":204,"start2":204,"length1":16,"length2":22}]],"length":327,"saved":false}
+{"ts":1365381668719,"patch":[[{"diffs":[[0,"= \"10019"],[-1,"\""],[0,"\napp.con"]],"start1":209,"start2":209,"length1":17,"length2":16}]],"length":326,"saved":false}
+{"ts":1365381669841,"patch":[[{"diffs":[[0,"ORT\"] = "],[-1,"\""],[0,"10019\nap"]],"start1":203,"start2":203,"length1":17,"length2":16}]],"length":325,"saved":false}
+{"ts":1365381680115,"patch":[[{"diffs":[[0,"= 10019\n"],[1,"app.config[\n"],[0,"app.conf"]],"start1":209,"start2":209,"length1":16,"length2":28}]],"length":337,"saved":false}
+{"ts":1365381681534,"patch":[[{"diffs":[[0,".config["],[1,"\"M"],[0,"\napp.con"]],"start1":220,"start2":220,"length1":16,"length2":18}]],"length":339,"saved":false}
+{"ts":1365381683031,"patch":[[{"diffs":[[0,"onfig[\"M"],[1,"ONGOD"],[0,"\napp.con"]],"start1":222,"start2":222,"length1":16,"length2":21}]],"length":344,"saved":false}
+{"ts":1365381684517,"patch":[[{"diffs":[[0,"[\"MONGOD"],[1,"B_U"],[0,"\napp.con"]],"start1":227,"start2":227,"length1":16,"length2":19}]],"length":347,"saved":false}
+{"ts":1365381685621,"patch":[[{"diffs":[[0,"ONGODB_U"],[1,"SE"],[0,"\napp.con"]],"start1":230,"start2":230,"length1":16,"length2":18}]],"length":349,"saved":false}
+{"ts":1365381686820,"patch":[[{"diffs":[[0,"GODB_USE"],[1,"R\""],[0,"\napp.con"]],"start1":232,"start2":232,"length1":16,"length2":18}]],"length":351,"saved":false}
+{"ts":1365381687820,"patch":[[{"diffs":[[0,"DB_USER\""],[1,"] "],[0,"\napp.con"]],"start1":234,"start2":234,"length1":16,"length2":18}]],"length":353,"saved":false}
+{"ts":1365381690039,"patch":[[{"diffs":[[0,"_USER\"] "],[1,"= "],[0,"\napp.con"]],"start1":236,"start2":236,"length1":16,"length2":18}]],"length":355,"saved":false}
+{"ts":1365381691631,"patch":[[{"diffs":[[0,"SER\"] = "],[1,"\""],[0,"\napp.con"]],"start1":238,"start2":238,"length1":16,"length2":17}]],"length":356,"saved":false}
+{"ts":1365381824065,"patch":[[{"diffs":[[0,"ER\"] = \""],[1,"dataroomba\""],[0,"\napp.con"]],"start1":239,"start2":239,"length1":16,"length2":27}]],"length":367,"saved":false}
+{"ts":1365381825537,"patch":[[{"diffs":[[0,"dataroomba\"\n"],[1,"app\n"],[0,"app.config[\""]],"start1":247,"start2":247,"length1":24,"length2":28}]],"length":371,"saved":false}
+{"ts":1365381827457,"patch":[[{"diffs":[[0,"mba\"\napp"],[1,".config["],[0,"\napp.con"]],"start1":254,"start2":254,"length1":16,"length2":24}]],"length":379,"saved":false}
+{"ts":1365381831797,"patch":[[{"diffs":[[0,".config["],[1,"\"MONGODB_"],[0,"\napp.con"]],"start1":262,"start2":262,"length1":16,"length2":25}]],"length":388,"saved":false}
+{"ts":1365381833541,"patch":[[{"diffs":[[0,"MONGODB_"],[1,"PASS"],[0,"\napp.con"]],"start1":271,"start2":271,"length1":16,"length2":20}]],"length":392,"saved":false}
+{"ts":1365381834520,"patch":[[{"diffs":[[0,"ODB_PASS"],[1,"\"]"],[0,"\napp.con"]],"start1":275,"start2":275,"length1":16,"length2":18}]],"length":394,"saved":false}
+{"ts":1365381836519,"patch":[[{"diffs":[[0,"B_PASS\"]"],[1," = \"​There is no data"],[0,"\napp.con"]],"start1":277,"start2":277,"length1":16,"length2":37}]],"length":415,"saved":false}
+{"ts":1365381837534,"patch":[[{"diffs":[[0," no data"],[1,"\""],[0,"\napp.con"]],"start1":298,"start2":298,"length1":16,"length2":17}]],"length":416,"saved":false}
+{"ts":1365381841957,"patch":[[{"diffs":[[0," = \""],[-1,"​"],[0,"Ther"]],"start1":285,"start2":285,"length1":9,"length2":8}]],"length":415,"saved":false}

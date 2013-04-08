@@ -1,0 +1,18 @@
+{"ts":1365380701002,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1365380319424,"patch":[[{"diffs":[[1,"# Set the path\nimport os, sys\nsys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))\n\nfrom flask.ext.script import Manager, Server\nfrom tumblelog import app\n\nmanager = Manager(app)\n\n# Turn on debugger by default and reloader\nmanager.add_command(\"runserver\", Server(\n    use_debugger = True,\n    use_reloader = True,\n    host = '0.0.0.0')\n)\n\nif __name__ == \"__main__\":\n    manager.run()"]],"start1":0,"start2":0,"length1":0,"length2":410}]],"length":410,"saved":false}
+{"ts":1365380441241,"patch":[[{"diffs":[[0,"t = "],[-1,"'0.0.0.0'"],[1,"o"],[0,")\n)\n"]],"start1":348,"start2":348,"length1":17,"length2":9}]],"length":402,"saved":false}
+{"ts":1365380443627,"patch":[[{"diffs":[[0,"host = o"],[1,"s.environ"],[0,")\n)\n\nif "]],"start1":345,"start2":345,"length1":16,"length2":25}]],"length":411,"saved":false}
+{"ts":1365380445025,"patch":[[{"diffs":[[0,".environ"],[1,"."],[0,")\n)\n\nif "]],"start1":354,"start2":354,"length1":16,"length2":17}]],"length":412,"saved":false}
+{"ts":1365380447135,"patch":[[{"diffs":[[0,".environ"],[-1,"."],[1,"['"],[0,")\n)\n\nif "]],"start1":354,"start2":354,"length1":17,"length2":18}]],"length":413,"saved":false}
+{"ts":1365380449233,"patch":[[{"diffs":[[0,"nviron['"],[1,"IP\n"],[0,")\n)\n\nif "]],"start1":356,"start2":356,"length1":16,"length2":19}]],"length":416,"saved":false}
+{"ts":1365380450714,"patch":[[{"diffs":[[0,"iron['IP"],[-1,"\n"],[1,"'["],[0,")\n)\n\nif "]],"start1":358,"start2":358,"length1":17,"length2":18}]],"length":417,"saved":false}
+{"ts":1365380452319,"patch":[[{"diffs":[[0,"ron['IP'"],[-1,"["],[1,"]"],[0,")\n)\n\nif "]],"start1":359,"start2":359,"length1":17,"length2":17}]],"length":417,"saved":false}
+{"ts":1365380455041,"patch":[[{"diffs":[[0,"on['IP']"],[1,","],[0,")\n)\n\nif "]],"start1":360,"start2":360,"length1":16,"length2":17}]],"length":418,"saved":false}
+{"ts":1365380456630,"patch":[[{"diffs":[[0,"n['IP'],"],[1,"\n    "],[0,")\n)\n\nif "]],"start1":361,"start2":361,"length1":16,"length2":21}]],"length":423,"saved":false}
+{"ts":1365380458521,"patch":[[{"diffs":[[0,"'],\n    "],[1,"port ="],[0,")\n)\n\nif "]],"start1":366,"start2":366,"length1":16,"length2":22}]],"length":429,"saved":false}
+{"ts":1365380459543,"patch":[[{"diffs":[[0,"  port ="],[1," "],[0,")\n)\n\nif "]],"start1":372,"start2":372,"length1":16,"length2":17}]],"length":430,"saved":false}
+{"ts":1365380461860,"patch":[[{"diffs":[[0," port = "],[1,"os.environ"],[0,")\n)\n\nif "]],"start1":373,"start2":373,"length1":16,"length2":26}]],"length":440,"saved":false}
+{"ts":1365380463715,"patch":[[{"diffs":[[0,".environ"],[1,"['"],[0,")\n)\n\nif "]],"start1":383,"start2":383,"length1":16,"length2":18}]],"length":442,"saved":false}
+{"ts":1365380467651,"patch":[[{"diffs":[[0,"nviron['"],[1,"PORT'="],[0,")\n)\n\nif "]],"start1":385,"start2":385,"length1":16,"length2":22}]],"length":448,"saved":false}
+{"ts":1365380469001,"patch":[[{"diffs":[[0,"n['PORT'"],[-1,"="],[1,"]"],[0,")\n)\n\nif "]],"start1":390,"start2":390,"length1":17,"length2":17}]],"length":448,"saved":false}
+{"ts":1365382705491,"patch":[[{"diffs":[[0,"rom "],[-1,"tumblelog"],[1,"dataroomba"],[0," imp"]],"start1":157,"start2":157,"length1":17,"length2":18}]],"length":449,"saved":false}
